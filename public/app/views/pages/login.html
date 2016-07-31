@@ -1,0 +1,19 @@
+<div class="container jumbotron" ng-controller="MainController as login">
+
+<h1 class="text-center"> Login </h1>
+
+<form method="post" class="col-sm-6 col-md-4 col-md-offset-4" ng-submit="login.doLogin()">
+
+
+<div class="form-group">
+	<label> Username :</label>
+	<input type="text" name="" class="form-control"	 placeholder="username" ng-model="login.loginData.username">
+</div>
+
+<div>
+	<label> Password :</label>
+	<input type="password" name="" class="form-control"	 placeholder="password" ng-model="login.loginData.password">
+</div>
+<button class="btn btn-success" > Login </button>
+</form>
+</div>
